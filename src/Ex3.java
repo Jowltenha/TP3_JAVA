@@ -5,17 +5,17 @@ public class Ex3 {
         int quantEstoque;
 
         // --- Exercício 3 Métodos Básicos da Classe “Produto” ---
-        // Método para atualizar o preço
+        // Metodo para atualizar o preço
         public void alterarPreco(double novoPreco) {
             this.preco = novoPreco;
         }
 
-        // Método para atualizar a quantidade em estoque
+        // Metodo para atualizar a quantidade em estoque
         public void alterarQuantidade(int novaQuantidade) {
             this.quantEstoque = novaQuantidade;
         }
 
-        // Método para exibir as informações do produto
+        // Metodo para exibir as informações do produto
         public void exibirInformacoes() {
             System.out.println("Produto: " + nome);
             System.out.println("Preço: R$ " + preco);

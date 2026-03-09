@@ -17,7 +17,7 @@ public class Ex6 {
             System.out.println("Produto: " + nome + " | Preço: R$ " + preco + " | Estoque: " + quantEstoque);
         }
 
-        // Método Main para exemplificar o uso
+        // Metodo Main para exemplificar o uso
         public static void main(String[] args) {
             // Criando o objeto em uma única linha usando o construtor
             Produto novoProduto = new Produto("Suco de Laranja 1L", 12.90, 24);
