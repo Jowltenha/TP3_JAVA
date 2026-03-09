@@ -4,15 +4,15 @@ public class Ex4 {
         double preco;
         int quantEstoque;
 
-        public void alterarPreco(double novoPreco) {
+        public void altPreco(double novoPreco) {
             this.preco = novoPreco;
         }
 
-        public void alterarQuantidade(int novaQuantidade) {
+        public void altQuantidade(int novaQuantidade) {
             this.quantEstoque = novaQuantidade;
         }
 
-        public void exibirInformacoes() {
+        public void exibirInfo() {
             System.out.println("Produto: " + nome);
             System.out.println("Preço: R$ " + preco);
             System.out.println("Quantidade em Estoque: " + quantEstoque);
