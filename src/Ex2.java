@@ -3,10 +3,8 @@ public class Ex2 {
     public class Produto {
         // Nome dos produtos
         String nome;
-
         // Preço de cada Produto
         double preco;
-
         // Quantidade de produtos em estoque
         int quantEstoque;
 

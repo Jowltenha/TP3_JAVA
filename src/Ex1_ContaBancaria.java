@@ -17,5 +17,6 @@ public class Ex1_ContaBancaria {
         minhaConta.depositar(150.00);
 
         System.out.println("Saldo atual: R$" + minhaConta.saldo);
+
     }
 }

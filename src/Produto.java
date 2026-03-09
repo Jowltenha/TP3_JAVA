@@ -2,19 +2,19 @@
 public class Produto {
     String nome;
     double preco;
-    int quantidadeEmEstoque;
+    int quantEstoque;
 
     public void alterarPreco(double novoPreco) {
         this.preco = novoPreco;
     }
 
     public void alterarQuantidade(int novaQuantidade) {
-        this.quantidadeEmEstoque = novaQuantidade;
+        this.quantEstoque = novaQuantidade;
     }
 
     public void exibirInformacoes() {
         System.out.println("Produto: " + nome);
         System.out.println("Preço: R$ " + preco);
-        System.out.println("Quantidade em Estoque: " + quantidadeEmEstoque);
+        System.out.println("Quantidade em Estoque: " + quantEstoque);
     }
 }
