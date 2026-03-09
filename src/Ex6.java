@@ -13,7 +13,7 @@ public class Ex6 {
             this.quantEstoque = quantEstoque;
         }
 
-        public void exibirInformacoes() {
+        public void exibirInfo() {
             System.out.println("Produto: " + nome + " | Preço: R$ " + preco + " | Estoque: " + quantEstoque);
         }
 
@@ -23,7 +23,7 @@ public class Ex6 {
             Produto novoProduto = new Produto("Suco de Laranja 1L", 12.90, 24);
 
             // Exibindo para confirmar a atribuição
-            novoProduto.exibirInformacoes();
+            novoProduto.exibirInfo();
         }
     }
 }
