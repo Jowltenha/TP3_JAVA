@@ -1,4 +1,4 @@
-# 🚀 Exercícios de Programação Orientada a Objetos (Java)
+# Exercícios de Programação Orientada a Objetos (Java)
 - Este repositório contém uma série de exercícios práticos desenvolvidos para consolidar os fundamentos da Programação Orientada a Objetos (POO) utilizando a linguagem Java.
 
 ## 📌 Conteúdos Abordados
