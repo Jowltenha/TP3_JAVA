@@ -1,7 +1,7 @@
 package FormasGeo;
 
 public class TestaFiguras {
-    public static void main() {
+    static void main() {
         Circulo meuCirculo = new Circulo();
         meuCirculo.raio = 3.0;
 
